@@ -27,24 +27,22 @@ for feed in feeds:
 
 df = pandas.DataFrame(posts, columns=['title', 'link', 'score'])
 
-df.to_csv('container.csv', index=False)
+
+postsX = []
 
 
-f = open('container.csv')
-csv_f = csv.reader(f)
-for row in csv_f:
-    print(row[1])
+for url in df['link']:
+    
+    x = Article(url)
+
+    x.download()
+    x.parse()
+    postsX.append((x.title, x.text, score))
+    #print(x.title + "\n")
+    #print("\n")
+    #print(x.text)
+
+dfText = pandas.DataFrame(columns=['title', 'text', 'score'])
+dfText.to_csv('fulltext', index = False)
 
 
-'''
-url = 'post.link'
-
-x = Article(url)
-
-x.download()
-x.parse()
-print(x.title + "\n")
-print("\n")
-print(x.text)
-
-'''
