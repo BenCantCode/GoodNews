@@ -22,7 +22,6 @@ class _NewsWidgetState extends State<NewsWidget> {
 
   @override
   Widget build(BuildContext context) {
-    print(newsStory.uploadDate);
     final theme = Theme.of(context).copyWith(
         dividerColor: Colors
             .transparent); //needed for removing dividers in expansion tile.

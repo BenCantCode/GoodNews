@@ -39,7 +39,7 @@ class NewsList extends StatefulWidget {
 
 class _NewsListState extends State<NewsList> {
   List<News> newsList = [];
-  List<News> searchList;
+  List<News> searchList = [];
 
   onSearchChanged(String search) {
     setState(() {
