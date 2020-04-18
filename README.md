@@ -1,15 +1,68 @@
-# Good News Everyone
-<img src="https://media.giphy.com/media/3o7abA4a0QCXtSxGN2/giphy.gif">
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Inspired by the optimistic attitude of Professor Farnsworth, our team sought out to make a high-quality news source that would only report *positive* news. The reasons for this are simple. 
+## Available Scripts
 
-People around the world are constantly subjected to an onslaught of negative news coverage, making people feel sad. According to leading psychologists, this type of coverage "can exacerbate or contribute to the development of stress, anxiety, depression and even post-traumatic stress disorder (PTSD)"<sup>1</sup> Furthermore, a 2018 study has shown that over half of all Americans report that news causes them stress.<sup>2</sup>
+In the project directory, you can run:
 
-Despite this, traditional media platforms are incentivized to report negative news due to the amount of audience engagement, giving rise to the saying "if it bleeds, it leads". Other attempts at creating happy news are  manually curated, raising issues with potential biases of the creators for what might be called "uplifting".
+### `npm start`
 
-Our solution utilizes the BERT model to perform sentiment analysis on the actual content of news articles (not only the headline). The news is refreshed every day using a variety of public RSS feeds and is displayed on a website (available at [https://goodnewseveryone.cc](https://goodnewseveryone.cc)) and on an app (with the source and Android build being available in the "app" folder of this repository). 
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Our backend code is based on AWS' SageMaker and S3. The notebook we used for machine learning is in server/notebook.ipynb. We had tons of fun with this project and we hope that you see as much potential in it as we do.
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-1: [The Huffington Post](https://www.huffpost.com/entry/violent-media-anxiety_n_6671732) \
-2: [American Psychological Association](https://www.apa.org/news/press/releases/2017/11/lowest-point)
+### `npm test`
+
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
