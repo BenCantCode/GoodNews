@@ -10,3 +10,6 @@ Despite this, traditional media platforms are incentivized to report negative ne
 Our solution utilizes the BERT model to perform sentiment analysis on the actual content of news articles (not only the headline). The news is refreshed every day using a variety of public RSS feeds and is displayed on a website (available at [https://goodnewseveryone.cc](https://goodnewseveryone.cc)) and on an app (with the source and Android build being available in the "app" folder of this repository). 
 
 Our backend code is based on AWS' SageMaker and S3. The notebook we used for machine learning is in server/notebook.ipynb. We had tons of fun with this project and we hope that you see as much potential in it as we do.
+
+1: [The Huffington Post](https://www.huffpost.com/entry/violent-media-anxiety_n_6671732) \
+2: [American Psychological Association](https://www.apa.org/news/press/releases/2017/11/lowest-point)
